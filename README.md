@@ -11,7 +11,7 @@ two stage learning.
 ### problem to be solved
 Explore the materials as close to 2.534 eV indirect bandgap as poosible from 6,218 candidates with 100 prior information.
 
-### The best model explored more efficiently than over 80% of skilled experts
+### The best model explored more efficiently than over 80% of skilled experts/scientists.
 
 
 
@@ -25,14 +25,14 @@ Explore the materials as close to 2.534 eV indirect bandgap as poosible from 6,2
 - Ax-platform
 
 # Usage
-### 1. human experiment
-Open 
-```
-python3 download_cif_from_cod.py --input ./COD-selection.txt --output ./cif
-```
+### 1. human exploration efficiency experiment
+Open human_experiment.ipynb, then run each cells.
+Explore materials exploiting information, such as lattice parameters, chemical formula, electronegativity.
+Do it 30 times within 60 mins, then generated **trial_result.csv** is your result.
+You can compare your exploration efficiency with the model.
 
-### 2. convert cif into XRD spectra
-First, check the cif files. (some files are broken or physically meaningless)
+### 2. Bandit optimization
+In sa
 ```
 python3 read_cif.py --input ./cif --output ./lithium_datasets.pkl
 ```
