@@ -14,7 +14,7 @@ Explore the materials as close to 2.534 eV indirect bandgap as possible from 6,2
 ```
 
 ### The best model explored more efficiently than over 80% of skilled experts/scientists.
-![GitHub Logo](/results/efficiency.png)
+![GitHub Logo](/results/ExplorationEfficiency.png)
 
 # Requirements
 - Python 3.6
