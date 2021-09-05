@@ -12,7 +12,7 @@ Two-stage learning.
 *Explore the materials as close to 2.534 eV indirect bandgap as possible from 6,218 candidates with 100 prior information.*
 
 ### The best model explored more efficiently than over 80% of skilled experts/scientists.
-Solid lines and shaded regions represent mean values and 95% confidence intervals, respectively.
+Solid lines and painted regions represent mean values and 95% confidence intervals, respectively.
 Prior work based on contineous Bayesian optimization cannot explore better materials at 30th trial than human experts.
 Ours won 80% of human experts.<br>
 ![GitHub Logo](/results/ExplorationEfficiency.png)
