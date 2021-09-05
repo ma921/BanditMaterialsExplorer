@@ -13,7 +13,7 @@ Two-stage learning.
 
 ### The best model explored more efficiently than over 80% of skilled experts/scientists.
 Solid lines and painted regions represent mean values and 95% confidence intervals, respectively.
-Prior work based on contineous Bayesian optimization cannot explore better materials at 30th trial than human experts.
+Prior work based on continuous Bayesian optimization cannot explore better materials at the 30th trial than human experts.
 Ours won 80% of human experts.<br>
 ![GitHub Logo](/results/ExplorationEfficiency.png)
 
