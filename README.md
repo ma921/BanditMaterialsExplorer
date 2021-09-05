@@ -26,13 +26,13 @@ two stage learning.
 
 # Usage
 ### 1. human exploration efficiency experiment
-Open human_experiment.ipynb, then run each cells.
+Open human_experiment.ipynb, then run each cells.<br>
 Explore materials exploiting information, such as lattice parameters, chemical formula, electronegativity.
 Do it 30 times within 60 mins, then generated **trial_result.csv** is your result.
 You can compare your exploration efficiency with the model.
 
 ### 2. Bandit optimization
-Run **run_bandit.py**
+Run **run_bandit.py** <br>
 This model will explore the 6,218 candidates using 12-dim descriptors extracted through CGCNN.
 The 12-dim discriptors are already converted and saved in **descriptors.csv** in the database folder.
 You don't need to run self-supervised representation learning.
