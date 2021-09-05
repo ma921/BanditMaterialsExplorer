@@ -14,6 +14,9 @@ Explore the materials as close to 2.534 eV indirect bandgap as possible from 6,2
 ```
 
 ### The best model explored more efficiently than over 80% of skilled experts/scientists.
+Solid lines and shaded regions represent mean values and 95% confidence intervals, respectively.
+Prior work based on contineous Bayesian optimization cannot explore better materials at 30th trial than human experts.
+Ours won 80% of human experts.
 ![GitHub Logo](/results/ExplorationEfficiency.png)
 
 # Requirements
@@ -43,4 +46,4 @@ If you want to convert cif files into descriptors, you can use pretraied model. 
 1. go into **cgcnn** directory
 2. unzip **cif.zip**
 3. run **extract.py** to convert cif files into 128-dim descriptors using pretrained model (model_best.pth.tar)
-4. 
+4. run **pca.py** to reduce 128-dim into 12 dim descriptors.
