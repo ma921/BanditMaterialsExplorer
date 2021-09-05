@@ -37,3 +37,10 @@ Run **run_bandit.py** <br>
 This model will explore the 6,218 candidates using 12-dim descriptors extracted through CGCNN.
 The 12-dim descriptors are already converted and saved in **descriptors.csv** in the database folder.
 Therefore, you don't need to run self-supervised representation learning.
+
+### 3. self-supervised learning using CGCNN
+If you want to convert cif files into descriptors, you can use pretraied model. <br>
+1. go into **cgcnn** directory
+2. unzip **cif.zip**
+3. run **extract.py** to convert cif files into 128-dim descriptors using pretrained model (model_best.pth.tar)
+4. 
