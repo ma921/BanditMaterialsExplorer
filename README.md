@@ -27,7 +27,7 @@ Explore the materials as close to 2.534 eV indirect bandgap as possible from 6,2
 
 # Usage
 ### 1. human exploration efficiency experiment
-Open human_experiment.ipynb, then run each cell.<br>
+Open **human_experiment.ipynb**, then run each cell.<br>
 Explore materials exploiting information, such as lattice parameters, chemical formula, electronegativity.
 Do it 30 times within 60 mins, then generated **trial_result.csv** is your result.
 You can compare your exploration efficiency with the model.
