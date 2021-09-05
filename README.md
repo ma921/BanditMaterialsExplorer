@@ -9,9 +9,9 @@ Two-stage learning.
 2. Bandit Optimization using Thompson Sampling
 
 ### Problem to be solved
-"""
-Explore the materials as close to 2.534 eV indirect bandgap as possible from 6,218 candidates with 100 prior information.**
-"""
+```
+Explore the materials as close to 2.534 eV indirect bandgap as possible from 6,218 candidates with 100 prior information.
+```
 
 ### The best model explored more efficiently than over 80% of skilled experts/scientists.
 
