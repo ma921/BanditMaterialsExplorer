@@ -15,7 +15,7 @@ Two-stage learning.
 Solid lines and painted regions represent mean values and 95% confidence intervals, respectively.
 Prior work based on continuous Bayesian optimization cannot explore better materials at the 30th trial than human experts.
 Ours won 80% of human experts.<br>
-![GitHub Logo](./results/efficiency.png)
+![GitHub Logo](./results/exploration_efficiency.png)
 
 # Requirements
 - Python 3.6
