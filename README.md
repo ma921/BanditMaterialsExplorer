@@ -1,6 +1,7 @@
 # BanditMaterialsExplorer
 Pytorch implementation of Bandit Optimization algorithms for materials exploration. <br>
-Details will be explained in the paper to be submitted to NeurIPS 2021 Workshop AI for Science (https://ai4sciencecommunity.github.io). <br>
+Details can be found in the paper to be submitted to NeurIPS 2021 Workshop AI for Science
+(https://openreview.net/forum?id=xJhjehqjQeB)<br>
 
 # Features
 ### model
@@ -45,3 +46,6 @@ If you want to convert cif files into descriptors, you can use pretraied model. 
 2. unzip **cif.zip**
 3. run **extract.py** to convert cif files into 128-dim descriptors using pretrained model (model_best.pth.tar)
 4. run **pca.py** to reduce 128-dim into 12 dim descriptors.
+
+### Citation
+Masaki Adachi, High-Dimensional Discrete Bayesian Optimization with Self-Supervised Representation Learning for Data-Efficient Materials Exploration, NeurIPS Workshop AI for Science 2021
